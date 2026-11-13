@@ -8,6 +8,8 @@
 | [day02_04_asa_dict.py](day02_04_asa_dict.py) | ASA 連線表轉成字典 | `split("\n")` 逐行處理、元組當字典 key、`.items()` |
 | [day02_05_port_sort.py](day02_05_port_sort.py) | 介面名稱依數字排序 | `sorted(key=lambda ...)`、`int()` 轉換、元組比較 |
 
+> 每題有兩個版本：`xxx.py` 是交作業用的原始程式碼（無註解），`xxx_commented.py` 是加上中文註解的學習版，兩者執行結果相同。
+
 ## 執行方式
 
 ```bash

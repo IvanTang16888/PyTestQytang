@@ -4,6 +4,8 @@
 |---|---|---|
 | [day03_01_inventory.py](day03_01_inventory.py) | 設備資產清單存進 SQLite，選單查詢 | `declarative_base()`、`Column`、`session.add/commit`、`filter_by()` 精確查詢、`like("%關鍵字%")` 模糊查詢、`__repr__` |
 
+> 每題有兩個版本：`xxx.py` 是交作業用的原始程式碼（無註解），`xxx_commented.py` 是加上中文註解的學習版，兩者執行結果相同。
+
 ## 執行方式
 
 ```bash

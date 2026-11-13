@@ -10,6 +10,8 @@
 | [day01_07_interfaces.py](day01_07_interfaces.py) | 介面狀態表 | `str.format()` 對齊、`"-" * 20` |
 | [day01_08_syslog.py](day01_08_syslog.py) | 解析 Syslog 介面狀態 | `re.search()`、捕獲組 `group(1)` / `group(2)` |
 
+> 每題有兩個版本：`xxx.py` 是交作業用的原始程式碼（無註解），`xxx_commented.py` 是加上中文註解的學習版，兩者執行結果相同。
+
 ## 執行方式
 
 ```bash

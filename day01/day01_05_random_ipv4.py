@@ -1,20 +1,6 @@
-# ============================================================
-# Day01 任務 5：random 模組 —— 隨機產生一個 IPv4 位址
-# IPv4 由 4 段 0~255 的數字組成，例如 10.25.3.200
-# ============================================================
-
-import random      # Python 內建的亂數模組，不用另外安裝
-
-# random.randint(a, b)：回傳 a~b 之間的隨機整數（包含 a 和 b）
-# 回傳的是 int（整數），但下面要用 + 跟字串相接，
-# 所以用 str() 轉成字串，不然會出現 TypeError
-aa = str(random.randint(0, 255))   # 第 1 段
-bb = str(random.randint(0, 255))   # 第 2 段
-cc = str(random.randint(0, 255))   # 第 3 段
-dd = str(random.randint(0, 255))   # 第 4 段
-
-# 4 段中間用 '.' 接起來
+import random
+aa = str(random.randint(0, 255))
+bb = str(random.randint(0, 255))
+cc = str(random.randint(0, 255))
+dd = str(random.randint(0, 255))
 print("随机产生的IPv4地址为: " + aa + '.' + bb + '.' + cc + '.' + dd)
-
-# 執行結果（每次都不一樣）：
-# 随机产生的IPv4地址为: 87.3.201.164
