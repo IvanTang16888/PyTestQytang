@@ -7,6 +7,7 @@
 | [day01/](day01/) | Python 基礎：字串、列表、字典、格式化輸出 |
 | [day02/](day02/) | 正則表達式解析網路設備輸出 |
 | [day03/](day03/) | SQLAlchemy ORM：設備 Inventory 系統 |
+| [day04/](day04/) | Paramiko 多命令、ping 檢查、自動設定 RIP |
 
 ## 環境
 
