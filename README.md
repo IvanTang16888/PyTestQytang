@@ -8,6 +8,7 @@
 | [day02/](day02/) | 正則表達式解析網路設備輸出 |
 | [day03/](day03/) | SQLAlchemy ORM：設備 Inventory 系統 |
 | [day04/](day04/) | Paramiko 多命令、ping 檢查、自動設定 RIP |
+| [day05/](day05/) | ORM 設定備份表、show run HASH 變化偵測 |
 
 ## 環境
 
