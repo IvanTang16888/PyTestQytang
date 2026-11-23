@@ -9,6 +9,7 @@
 | [day03/](day03/) | SQLAlchemy ORM：設備 Inventory 系統 |
 | [day04/](day04/) | Paramiko 多命令、ping 檢查、自動設定 RIP |
 | [day05/](day05/) | ORM 設定備份表、show run HASH 變化偵測 |
+| [part2_day01/](part2_day01/) | 第二部分 Day01：批量檢查 shutdown、模擬備份輪替（pathlib、datetime、shutil） |
 
 ## 環境
 
