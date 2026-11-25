@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16
+    ports: ["127.0.0.1:15435:5432"]
+    environment:
+      POSTGRES_USER: bgpuser
+      POSTGRES_PASSWORD: Cisc0123
+      POSTGRES_DB: bgpdb
+    volumes: ["bgp-data:/var/lib/postgresql/data"]
+volumes:
+  bgp-data: {}
+
+
+
